@@ -1,0 +1,14 @@
+import java.util.*;
+public class Practice
+{
+    public static void main(String args[])
+    {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter radius");
+        int radius=scan.nextInt();
+        double area=3.14*radius*radius;
+        System.out.println(" "+area);
+        scan.close();
+
+    }
+}
